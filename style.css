@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 100%;
+}
+
+/* =========Common CSS=========== */
+.container{
+    width: 83.75rem;
+    margin: 0 auto;
+    
+}
+.btn{
+    padding: 0.938rem 2rem;
+    background: #FF6B00;
+    color:#fff ;
+    font-weight: 500;
+    font-size: 1.313rem;
+    text-transform: capitalize;
+    border-radius: 0.375rem;
+    /* display: block; */
+}
+/* === sub Headimg start here === */
+.section_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+  }
+
+.sub_heading{
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
+
+}
+.round{
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 50%;
+    border: 0.063rem solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inear_round{
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 50%;
+    border: 0.063rem solid black ;
+}
+.sub_heading_text{
+    color: #101010;
+    font-family: Jost;
+    font-size: 1rem;
+    /* text-transform: uppercase; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem; 
+}
+.sec_title{
+    color: #101010;
+    text-align: center;
+    font-family: Jost;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.563rem; 
+    text-transform: uppercase;
+    margin-top:  0.625rem;
+}
+/* === sub Headimg End here === */
+
+
+/* =========Common CSS End Here =========== */
+
+/* ==================navbar Start Here================ */
+#navbar{
+    background: #fff;
+    padding: 1.563rem 0;
+
+}
+.nav_wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu{
+    display: flex;
+    column-gap: 2rem;
+    text-transform: capitalize;
+}
+.manu li a{
+    color: #101010;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+.nav_btn{
+    background: #FF6B00;
+    color:#fff ;
+}
+
+/* ==================navbar End Here================ */
+
+/* ================== Banner Start Here=============== */
+#banner{
+    background: var(--Gradint-Color, linear-gradient(256deg, rgba(255, 195, 152, 0.20) 26.56%, rgba(255, 234, 190, 0.30) 100%));
+   
+}
+.banner_wrapper{
+display: flex;
+justify-content: space-between;
+}
+.banner_content{
+   
+}
+.banner_content .sub_heading{
+    margin-top: 12rem;
+    margin-bottom: 0.625rem;
+}
+.banner_content span{
+    text-transform: uppercase;
+}
+.banner_heading{
+    color:#101010;
+    font-family: Jost;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.938rem;
+}
+.banner_text{
+    color: #606060;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.913rem;  
+    margin: 2.875rem 1.75rem 3.125rem 0.063rem;
+}
+.banner_btn{
+    
+}
+
+.banner_img img{
+    width: 37.925rem;
+    height: 53.063rem;
+}
+
+
+/* ================== Banner End Here================ */
+
+
+/* ================== About Start Here================ */
+#about{
+    margin: 8rem 0;
+    background: #fff;
+}
+.about_wrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    }
+    .about_img img{
+        width: 35rem;
+        height:48rem;
+        flex-shrink: 0;  
+        border-radius: 0.375rem;
+    }
+    .about_content{
+        margin-left: 6.938rem;
+    }
+ 
+    .about_content .sec_title{
+        text-transform: capitalize;
+        text-align: left;
+        max-width: 24.5rem;
+       
+    }
+.about_content .about_text{
+    color: #606060;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7
+    margin-top: 1.25rem;
+}
+.about_work_wrapper{
+    display: flex;
+    column-gap: 0.938rem;
+    margin: 3.25rem 0;
+}
+.complete_project{
+    display: flex;
+    column-gap: 0.938rem;
+}
+.complete_project img{
+    width: 3.75rem;
+    height: 3.625rem;
+    flex-shrink: 0;
+}
+.complete_project_text_box{
+
+}
+.complete_project_text_box h6{
+    color: #FF6B00;
+    font-family: "jost";
+    font-size: 1.313rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.complete_project_text_box span{
+    color: #101010;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.313rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;  
+} 
+
+.year_of_experience{
+    display: flex;
+    column-gap: 0.938rem;
+    
+}
+.year_of_experience img{
+    width: 3.75;
+    height: 3.625;
+    flex-shrink: 0;
+}
+.year_of_experience_text_box{
+
+}
+.year_of_experience_text_box h6{
+    color: #FF6B00;
+    font-family: "jost";
+    font-size: 1.313rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.year_of_experience_text_box span{
+    color: #101010;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.313rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;  
+}
+
+.about_text_1{
+    display: flex;
+    align-items: center;
+    column-gap:0.625rem ;
+}
+.about_text_1 img{
+    width: 0.875rem;
+    height: 0.875rem;
+    flex-shrink: 0;
+}
+.about_text_1 p{
+    color: #000;
+    font-family: Alef;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+}
+.about_text_2{
+    display: flex;
+    align-items: center;
+    column-gap:0.625rem;
+    margin-top: 1.25rem;
+    margin-bottom:3.125rem;
+}
+.about_text_1 img{
+    width: 0.875rem;
+    height: 0.875rem;
+    flex-shrink: 0;
+}
+.about_text_2 p{
+    color: #000;
+    font-family: Alef;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+}
+.about_wrapper .about_btn{
+    
+}
+/* ==================== About End Here================ */
+
+/* ==================== Services Start Here================ */
+#services{
+
+}
+
+.services_items{
+    margin-top: 3.125rem;
+    margin-bottom: 8.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 1.875rem;
+}
+.services_card{
+    width: 19.5rem;
+    text-align: center;
+    border-radius: 0.375;
+    border: 0.063rem solid #FFE2D1;
+    padding:2.875rem 1.875rem 3.125rem 1.875rem ;
+}
+.services_card:hover{
+    background: #FFF5EF;
+}
+.services_card img{
+    width: 3.438rem;
+    height: 3.438rem;
+}
+.services_card h3{
+    margin-top: 1.563rem;
+    color: #101101;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.938rem;
+    font-style: normal;
+    font-family: jost;
+}
+.services_card p{
+    font-family: Jost;
+    color: #606060;
+    margin-top: 0.813;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.688rem;
+}
+/* ==================== Services End Here=================== */
+
+/* ==================== Resume Start Here================= */
+#resume{
+    background: #FFF5EF;
+    padding: 4.25rem 0 2.75rem 0;
+}
+.resume_wrapper{
+    margin-top: 2.5rem;
+}
+.resume_item{
+    margin-bottom: 1.5rem;
+}
+.resume_title{
+    color: #1E1E1E;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.938rem;
+    margin-bottom: 1.5rem;
+}
+.resume_item_wrapper{
+    display: flex;
+    column-gap: 1.5rem;
+}
+.resume_card{
+    background: #fff;
+    border-radius: 0.375;
+    border: 0 solid #5C5C5C;
+    width: 26.5rem;
+    padding: 1.875rem 1.75rem 1.875rem 2.625rem;
+}
+.resume_card h4{
+    font-size: 1.313rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #000;
+   
+}
+.resume_card span{
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #606060;
+    display: inline-block;
+    margin-top: 0.625rem;
+}
+.resume_card p{
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #606060;
+    margin-top: 1rem;
+}
+/* ==================== Resume End Here=================== */
+/* ==================== Portfolio Start Here================= */
+#protfolio{
+    padding-top: 8.125rem;
+
+}
+.protfolio_wrapper{
+    margin-top: 3.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.pro_card{
+    width: 26.875rem;
+    height: 26.875rem;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    
+}
+.pro_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ==================== Portfolio End Here=================== */
+/* ==================== testimonial Start Here================= */
+#testimonial{
+    margin-top:  8.125rem;
+}
+.testi_wrapper{
+    margin-top: 2.688rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.testi_card{
+    width: 26.5rem;
+    background: rgba(255,245,239,0.5);
+    padding-top: 2.5rem;
+    padding-left: 1.875rem;
+    border-radius: 0.5rem;
+   transition: all linear 0.3s;
+
+}
+.testi_card:hover{
+    background: #FFF5EF;
+}
+.client_info{
+display: flex;
+gap: 1.563rem;
+}
+.client_info img{
+    width: 4.688rem;
+    height: 4.688rem;
+    border-radius: 50%;
+}
+.client_info .client_id{
+
+}
+.client_info .client_id h3{
+    color: #101010;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.95rem; 
+}
+.client_info .client_id p{
+    color: #606060;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem; 
+}
+.testi_card .msg{
+    font-family: Jost;
+    color: #606060;
+    margin-top: 1.25rem;
+    margin-bottom: 3.75rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+/* ==================== testimonial End Here=================== */
+/* ==================== partners Start Here================= */
+#partners{
+    margin-top: 11.25rem;
+
+}
+.partners_wrapper{
+    margin-top: 3.125rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.partners_card{
+    width: 12.5rem;
+    height: 8.125rem; 
+    border-radius: 0.375rem;
+    border: 0.063rem solid #FFE2D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners_card img{
+    height: 4.375rem;
+}
+/* ==================== partners End Here=================== */
+
+/* ==================== blog Start Here================= */
+#blog{
+    margin-top:8.125rem;
+
+}
+.blog_wrapper{
+    margin-top: 3.125rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+   
+}
+.bolg_card{
+    width: 26.5rem;
+    border-radius: 0.375rem;  
+    overflow: hidden;
+}
+.blog_info{
+    border: 0.063rem solid #FFE2D1;
+    
+   
+}
+.bolg_card .blog_img{
+    height: 18.75rem;
+    width: 100%;
+    overflow: hidden;
+}
+.bolg_card .blog_info .blog_para{
+    color: #6F6B80;
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: 1.875rem 0 1.25rem 875rem;
+}
+.bolg_card .blog_info .blog_title{
+    color:#101010;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.95rem; 
+    margin-left: 1.875rem;     
+}
+.bolg_card .blog_info .blog_btn{
+    margin: 1.625rem 0 1.625rem 1.875rem;
+    color:#FF6B00;
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.625rem; 
+    display: inline-flex;
+    gap: 0.625rem;
+    align-items: center;
+    
+}
+/* ==================== blog End Here=================== */
+/* ==================== Contact Start Here================= */
+#contact{
+    margin-top: 8.125rem;
+    margin-bottom: 8.125rem;
+}
+.contact_wrapper{
+    margin-top: 3.125rem;
+    display: flex;
+    gap: 4.875rem;
+}
+.contact_form{
+    width: 55rem;
+}
+.contact_form form{
+   
+}
+.contact_form form .cntct_row {
+    display: flex;
+    column-gap: 1.5rem;
+    margin-bottom: 1.875rem;
+}
+.contact_form form .cntct_row input, .contact_form form .msg{
+    width: 26.5rem;
+    height: 4.375em;
+    border-radius: 0.375rem;
+    border: 0.063rem solid #FFE2D1;
+
+    color: #606060;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;  
+    padding-left: 1.25rem;
+}
+
+.contact_form form .msg{
+    height: 12.125rem;
+    width: 100%;
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+    margin-bottom: 3.125rem;   
+}
+.contact_btn{
+    
+}
+
+
+.contact_info{
+   width: 23.875rem;
+
+}
+.contact_info .sec{
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.contact_info .contact_icon i{
+    color: #FF6B00;
+    font-size: 2.125rem;
+    border-radius: 0.375rem;
+    background: #FFF5EF;
+    padding:1rem;
+}
+.contact_info .sec img{
+    width: 1.73rem;
+   
+}
+.contact_info .sec .info h3{
+    color:#101010;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.95rem;
+}
+.contact_info .sec .info p{
+    color:#606060;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;   
+}
+/* ==================== Contact End Here=================== */
+/* ==================== Footer Start Here================= */
+#footer{
+    background: #000;
+    padding-top: 8.5rem;
+    padding-bottom: 2.25rem;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+    
+}
+.footer_logo img{
+    width: 8.438rem;
+    height: 2.907rem;
+    margin-bottom: 2.25rem;
+}
+.footer_logo p{
+    margin-bottom: 1.875rem;
+    width: 18.75rem;
+}
+.footer_logo h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.95rem;
+    margin-bottom: 9.188rem;
+}
+
+.footer_link h4{
+    margin-bottom: 3.563rem;
+    font-weight: 500;
+    line-height: 1.25rem; 
+    font-size: 1.313rem; 
+}
+.footer_link ul li{
+    margin-bottom: 1.5rem;
+}
+.footer_link ul li a{
+    color: #fff;
+    
+}
+.footer_services h4{
+    margin-bottom: 3.563rem;
+    font-weight: 500;
+    line-height: 1.25rem; 
+    font-size: 1.313rem;
+}
+.footer_services ul li{
+    margin-bottom: 1.5rem;
+}
+.footer_services ul li a{
+    color: #fff;
+    
+}
+.footer_social h4{
+    margin-bottom: 3.563rem;
+    font-weight: 500;
+    line-height: 1.25rem; 
+    font-size: 1.313rem;
+}
+.footer_social .footer_social_icons {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 2.188rem;
+    
+}
+.footer_social .footer_social_icons i{
+    padding: 1rem;
+    background: #FF6B00;
+    border-radius: 0.375rem;
+    font-size: 1.688rem;
+}
+.footer_social .footer_location{
+    display: flex;
+    gap: 0.75rem;
+    align-items:baseline;
+    margin-bottom: 1.5rem;
+}
+.footer_social .footer_location i{
+    color: red;
+    
+}
+.footer_social .footer_location p{
+    width: 11rem;
+}
+
+
+
+.footer_social .footer_contact{
+    display: flex;
+    gap: 0.75rem;
+    align-items:baseline;
+    margin-bottom: 8.438rem;
+}
+.footer_social .footer_contact i{
+    color: red;
+    
+}
+.footer_social .footer_contact p{
+    width: 11rem;
+}
+
+.footer_low{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:1.7rem;
+    margin-bottom: 1.875rem;
+}
+.footer_low .terms{
+    display: flex;
+    gap: 6.25rem;
+}
+
+
+
+
+/* ==================== Footer End Here=================== */
+
